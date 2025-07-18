@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  background-image: url('https://wallpapers.com/images/high/hexagon-4k-olcs6tf1oilvyy3t.webp'); /* path relative to the CSS file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 2rem;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, textarea {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #bec922;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0ad6e9;
+}
